@@ -35,3 +35,32 @@ const myfunc = function(){
     console.log("hello world");
     
 }
+
+
+
+
+
+
+// +++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive) (Jo bhi varible declaree krte h uska copy milta h )  , Heap (Non - Primitive) (ismse reference milta h jo bhi change krege original value me bhi change hoga )
+
+let myChannel = "tushar.com"
+let anotherChannel = myChannel
+anotherChannel = "chai or code"
+console.log(anotherChannel);
+console.log(myChannel);
+
+let userOne = {
+    email : "user@gmail.com".
+    gpay = "user@ybl"
+}
+
+let userTwo = userOne
+
+
+userTwo.email = "tushar.com"
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
