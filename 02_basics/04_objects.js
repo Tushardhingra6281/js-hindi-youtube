@@ -32,11 +32,38 @@ const obj3 = {...obj1 , ...obj2}  // ye wala method sbse best 2 , 3 ya usse jada
 console.log(obj3);
 
 
-console.log(Object.keys(tinderUser));
+// console.log(Object.keys(tinderUser));
 
-console.log(Object.values(tinderUser));
+// console.log(Object.values(tinderUser));
 
-console.log(Object.entries(tinderUser));
+// console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty('LoggedIn'));  // check krne ke liye h iske pass property h ye wali ya nhi 
+// console.log(tinderUser.hasOwnProperty('LoggedIn'));  // check krne ke liye h iske pass property h ye wali ya nhi 
 
+
+const course = {
+    coursename : "js in hindi",
+    price : "999",
+    courseInstructor : "Chai or code"
+}
+
+// course.courseInstructor
+
+const {courseInstructor : instrustor} = course  // code ko destruct kr dia mene
+// console.log(courseInstructor);
+console.log(instrustor);
+
+// ++++++++++++++++ API ++++++++++++++++++
+
+// {
+//     "name" : "tushar"
+//     "coursename" : "js in hindi"                    //API format h ye 
+//     "price" : "youtube se pd rhe h islie free h"
+// }
+
+[
+    {},
+    {},
+]
+
+// Jitna bhi API h ye saara json format hi h 
